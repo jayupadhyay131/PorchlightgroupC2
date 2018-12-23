@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="23392" started-at="2018-12-19T17:38:34Z" finished-at="2018-12-19T17:38:57Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="23392" started-at="2018-12-19T17:38:34Z" finished-at="2018-12-19T17:38:57Z">
+      <class name="Executable_Classes.Login_Application">
+        <test-method status="PASS" signature="OpenBrowser(java.lang.String)[pri:0, instance:Executable_Classes.Login_Application@7d9d1a19]" name="OpenBrowser" is-config="true" duration-ms="3947" started-at="2018-12-19T17:38:34Z" finished-at="2018-12-19T17:38:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="GetData()[pri:0, instance:Executable_Classes.Login_Application@7d9d1a19]" name="GetData" is-config="true" duration-ms="411" started-at="2018-12-19T17:38:38Z" finished-at="2018-12-19T17:38:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetData -->
+        <test-method status="PASS" signature="Open_URL()[pri:2, instance:Executable_Classes.Login_Application@7d9d1a19]" name="Open_URL" duration-ms="2155" started-at="2018-12-19T17:38:38Z" finished-at="2018-12-19T17:38:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Open_URL -->
+        <test-method status="PASS" signature="GetData()[pri:0, instance:Executable_Classes.Login_Application@7d9d1a19]" name="GetData" is-config="true" duration-ms="25" started-at="2018-12-19T17:38:40Z" finished-at="2018-12-19T17:38:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetData -->
+        <test-method status="PASS" signature="Enter_UserName()[pri:3, instance:Executable_Classes.Login_Application@7d9d1a19]" name="Enter_UserName" duration-ms="5409" started-at="2018-12-19T17:38:40Z" finished-at="2018-12-19T17:38:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Enter_UserName -->
+        <test-method status="PASS" signature="Enter_Password()[pri:4, instance:Executable_Classes.Login_Application@7d9d1a19]" name="Enter_Password" duration-ms="5172" started-at="2018-12-19T17:38:46Z" finished-at="2018-12-19T17:38:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Enter_Password -->
+        <test-method status="PASS" signature="GetData()[pri:0, instance:Executable_Classes.Login_Application@7d9d1a19]" name="GetData" is-config="true" duration-ms="0" started-at="2018-12-19T17:38:46Z" finished-at="2018-12-19T17:38:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetData -->
+        <test-method status="PASS" signature="GetData()[pri:0, instance:Executable_Classes.Login_Application@7d9d1a19]" name="GetData" is-config="true" duration-ms="0" started-at="2018-12-19T17:38:51Z" finished-at="2018-12-19T17:38:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetData -->
+        <test-method status="PASS" signature="Login_Button()[pri:5, instance:Executable_Classes.Login_Application@7d9d1a19]" name="Login_Button" duration-ms="5123" started-at="2018-12-19T17:38:51Z" finished-at="2018-12-19T17:38:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_Button -->
+        <test-method status="PASS" signature="GetData()[pri:0, instance:Executable_Classes.Login_Application@7d9d1a19]" name="GetData" is-config="true" duration-ms="12" started-at="2018-12-19T17:38:56Z" finished-at="2018-12-19T17:38:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetData -->
+        <test-method status="PASS" signature="Close_Browser()[pri:6, instance:Executable_Classes.Login_Application@7d9d1a19]" name="Close_Browser" duration-ms="1093" started-at="2018-12-19T17:38:56Z" finished-at="2018-12-19T17:38:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close_Browser -->
+      </class> <!-- Executable_Classes.Login_Application -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

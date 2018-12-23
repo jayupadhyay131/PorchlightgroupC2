@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test">
+  <parameter name="browser" value="chrome" />
+    <classes>
+      <class name="Executable_Classes.Login_Application"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
