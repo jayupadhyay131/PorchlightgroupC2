@@ -32,7 +32,12 @@ import jxl.read.biff.BiffException;
 		static String TableName = "porchdb_test_Data";
 		static String DBUserName = "root";
 //		static String DBPassword = "test1234";
-		static String DBPassword = "Test@123456"; 
+		
+		//Nitesh
+		//static String DBPassword = "Test@123456";
+		//Jay
+		static String DBPassword = "mysql1991";
+		
 		static String Databaseconnection = "localhost";
 //		static String Databaseconnection = "192.168.1.105";
 //		static String Databaseconnection = "ng-testing.cb04wcbjfatz.us-east-1.rds.amazonaws.com";
