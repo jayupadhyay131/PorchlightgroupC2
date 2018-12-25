@@ -8,13 +8,13 @@ import java.sql.Statement;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-import Executable_Classes.Login_Application;
+import Executable_Classes.TC1_Login_Application;
 import Utilities_Classes.RepositoryParser;
 import Utilities_Classes.Utility;
 
 public class Functions {
 
-	String TestDB = Login_Application.TestDB;
+	String TestDB = TC1_Login_Application.TestDB;
 			
 	public void Enter_URL(WebDriver driver, String Cases) throws SQLException, ClassNotFoundException
 	{
