@@ -6,13 +6,9 @@
     <classes>
       <class name="Executable_Classes.Login_Application">
         <methods>
-          <include name="Open_URL"/>
-          <include name="Close_Browser"/>
-          <include name="Enter_Password"/>
           <include name="Login_Button"/>
           <include name="OpenBrowser"/>
           <include name="GetData"/>
-          <include name="Enter_UserName"/>
         </methods>
       </class> <!-- Executable_Classes.Login_Application -->
     </classes>

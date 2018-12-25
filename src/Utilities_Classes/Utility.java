@@ -12,7 +12,10 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 public class Utility {
 	static WebDriver driver = null;
 	static String Databaseconnection = "localhost";
-	static String DBPassword = "Test@123456"; 
+	
+	// change password here
+	static String DBPassword = "mysql1991"; 
+	
 	static String DBUserName = "root";
 	static String DatabasePort = "3306";
 	
@@ -47,7 +50,7 @@ public class Utility {
 		try
 		{
 			Class.forName("com.mysql.jdbc.Driver");  
-			Conn=DriverManager.getConnection("jdbc:mysql://"+Databaseconnection+":"+DatabasePort+"","root","Test@123456");			
+			Conn=DriverManager.getConnection("jdbc:mysql://"+Databaseconnection+":"+DatabasePort+"",DBUserName,DBPassword);			
 		}
 		 catch(Exception ex)
 		{
