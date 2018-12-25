@@ -3,7 +3,7 @@
   <test name="Test">
   <parameter name="browser" value="chrome" />
     <classes>
-      <class name="Executable_Classes.Login_Application"/>
+      <class name="Executable_Classes.TC1_Login_Application"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
