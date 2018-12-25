@@ -15,7 +15,7 @@ import org.testng.annotations.Test;
 import Utilities_Classes.Utility;
 
 
-public class Login_Application 
+public class TC1_Login_Application 
 {
 	Utilities_Classes.Utility utility = new Utilities_Classes.Utility();
 	Functional_Classes.Functions functions = new Functional_Classes.Functions();
